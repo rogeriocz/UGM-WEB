@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Mi Primera App WEB</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/estilo.css" />
 	</head>
 <body>
 	<header>
-		<figure>
+		<figure id="logo">
 			<img src="img/logo.png" />
 		</figure>
 		<h1>Solo para gamer zombies y con laptopd de alto desempeño</h1>
-		<figure>
+		<figure id="avatar">
 			<img src="img/avatar2.jpg">
 		</figure>
 	</header>
@@ -21,22 +23,22 @@
 			<li><a href="#">Nintendo</a></li>
 			<li><a href="#">PcGamer</a></li>
 			<li><a href="#">SteamOs</a></li>
-			<li><a href="#">login</a></li>
+			<li id="login"><a href="#">login</a></li>
 		</ul>
 	</nav>
-	<section>
-		<article>
-			<figure> 
+	<section id="contenido">
+		<article class="art">
+			<figure class="imagen-art"> 
 				<img src="img/destiny_mid_img4.jpg" />
 			</figure>
 
-			<h2><p>EXCLUSIVA</p></h2>
+			<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
 
 		<div>
-			<h2>DESTINY</h2>
-			<h2>DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
+			<h2 class="titulo-art">DESTINY</h2>
+			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
-		<div>
+		<div class="texto">
 			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
 
 				por:<a href="#">Rogerio</a>
@@ -48,18 +50,11 @@
 	</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	<footer>
+		<p>
+			<strong>Powered by Ruby on Rails</strong>
+		</p>
+	</footer>
 
 
 
