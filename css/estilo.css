@@ -87,3 +87,37 @@ nav ul #login a
 	padding: 0.6em 0.8em;
 	text-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 }
+#contenido
+{
+	margin: 1em;
+}
+#contenido .art
+{
+	background: white;
+	border-radius: 8px 8px 0px 0px;
+	position: relative;
+}
+#contenido .art .imagen-art
+{
+	background-color: white;
+	border-radius: 8px 8px 0px 0px;
+}
+#contenido .art .imagen-art img
+{
+	border-radius: 8px 8px 0px 0px;
+	display: block;
+	width: 100%;
+}
+#contenido .art .imagen-art .cinta-art
+{
+	color: white;
+	position: absolute;
+	right: 0;
+	top:0.1em;
+}
+#contenido .art .imagen-art .cinta-art p 
+{
+	font-size: 0.6em;
+	background: #22BCE0;
+	
+}
