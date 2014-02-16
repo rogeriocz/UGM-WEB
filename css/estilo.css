@@ -1,3 +1,11 @@
+a
+{
+	color: #22BCE0;
+}
+aside
+{
+	display: none;
+}
 body 
 {
 	background: #EEEEEE;
@@ -96,6 +104,7 @@ nav ul #login a
 	background: white;
 	border-radius: 8px 8px 0px 0px;
 	position: relative;
+	margin-bottom: 1em;
 }
 #contenido .art .imagen-art
 {
@@ -119,5 +128,39 @@ nav ul #login a
 {
 	font-size: 0.6em;
 	background: #22BCE0;
-	
+	border-radius: 3px 0px 0px 3px;
+	padding: 0.1em 0.2em;
+	font-style: italic;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	text-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
+}
+
+/*responsive*/
+
+@media screen and (min-width: 800px){
+	#contenido
+	{
+		overflow: hidden;
+	}
+	#contenido .art
+	{
+		width: 49%;
+		float: left;
+	}
+	#contenido .art:nth-child(odd){
+		margin-right: 2%;
+	}
+}
+@media screen and (min-width: 1080px){
+	aside
+	{
+		display: block;
+		float: right;
+		margin: 1em;
+		width: 25%;
+	}
+	aside video
+	{
+		width: 100%;
+	}
 }
