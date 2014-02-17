@@ -134,6 +134,23 @@ nav ul #login a
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 	text-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
 }
+footer
+{
+	background: #22BCE0;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+	text-align: center;
+}
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+
+
 
 /*responsive*/
 
