@@ -1,186 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<title>Mi Primera App WEB</title>
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="proyecto de diseño web para UGM" />
+	<meta name="viewport" content="width=device-width, minimun-scale=1, maximun-scale=1" />
+	<title>Mi primera app web</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="css/noralize.css" />
+	<link rel="stylesheet" href="css/estilos.css" />
 
-		<meta name="viewport" content="width=device-width, minimun-scale=1, maximun-scale=1" />
 
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/estilo.css" />
-	</head>
+</head>
 <body>
 	<header>
 		<figure id="logo">
 			<img src="img/logo.png" />
 		</figure>
-		<h1>Solo para gamer zombies y con laptopd de alto desempeño</h1>
+			<h1> Solo para gamer zombies y con laptops de alto desempeño </h1>
 		<figure id="avatar">
-			<img src="img/avatar2.jpg">
+			<img src="img/avatar2.jpg" />
 		</figure>
 	</header>
+	<!--Inicia barras de navegación-->
 	<nav>
 		<ul>
-			<li><a href="#">PS4</a></li>
+			<li><a href="#">PS 4</a></li>
 			<li><a href="#">Xbox One</a></li>
 			<li><a href="#">Nintendo</a></li>
 			<li><a href="#">PcGamer</a></li>
 			<li><a href="#">SteamOs</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-
-			<li id="login"><a href="#">login</a></li>
+			<li><a href="contacto.html" target="new">Contacto</a></li>
+			<li id="login">
+				<a href="#" id="mostrar-form">Login</a>
+			</li>
 		</ul>
 	</nav>
-		<!--etiqueta de video-->
-	<aside>
-		<video width="320" heigth="240" controls>
-			<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.ogv" type='video/ogg; codecs="theora, vorbis"'/>
-			<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.webm" type='video/webm' >
-			<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.mp4" type='video/mp4'>
-				<p> Actualiza tu Navegador</p>
-	</aside>
-	
+	<!--Final de barras de navegación-->
+		<form action="" id="formulario" class="formulario">
+			<input type="text" id="titulo" placeholder="correo@ejemplo.com" required>
+			<input type="url" id="url" placeholder="Password" required>
+			<input type="submit" value="Enviar">
+		</form>
+
+		
+		<!--Video si estamos en una laptop-->
+	<aside>	
+		<div id="geo"></div>
+
+		<video width="320" height="240" controls >
+		<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+		<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.webm" type='video/webm' >
+		<source src="video/inFAMOUS Second Son - E3 Trailer (PS4)   E3 2013.mp4" type='video/mp4'>
+		<p>Actualiza tu navegador</p>
 		</video>
-
-
-	<section id="contenido"><!--etiqueta de video-->
+	</aside>	
+	<!--Video si estamos en una laptop-->
+	<section id="contenido">
 		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
-			
-
+			<figure class="imagen-art">
+			<img src="img/destiny.jpg" />
+			<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
+		</figure>
 		<div>
 			<h2 class="titulo-art">DESTINY</h2>
 			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
 		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
+			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  </p>
+		<div class="autor">
+				Publicado por: <a href="#"> Rogerio</a>
 		</div>
-
+			
+		</div>
 		</article>
 
 		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
-			
-
+			<figure class="imagen-art">
+			<img src="img/infamous_mid_img1.jpg" />
+			<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
+		</figure>
 		<div>
 			<h2 class="titulo-art">DESTINY</h2>
 			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
 		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
+			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  </p>
+		<div class="autor">
+				Publicado por: <a href="#"> Rogerio</a>
 		</div>
-
+			
+		</div>
 		</article>
 		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
-			
-
+			<figure class="imagen-art">
+			<img src="img/killzone.jpg" />
+			<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
+		</figure>
 		<div>
 			<h2 class="titulo-art">DESTINY</h2>
 			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
 		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
+			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  </p>
+		<div class="autor">
+				Publicado por: <a href="#"> Rogerio</a>
 		</div>
-
+			
+		</div>
 		</article>
 		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
-			
-
+			<figure class="imagen-art">
+			<img src="img/destiny_mid_img4.jpg" />
+			<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
+		</figure>
 		<div>
 			<h2 class="titulo-art">DESTINY</h2>
 			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
 		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
+			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  </p>
+		<div class="autor">
+				Publicado por: <a href="#"> Rogerio</a>
 		</div>
-
-		</article>
-		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
 			
-
-		<div>
-			<h2 class="titulo-art">DESTINY</h2>
-			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
 		</div>
-		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
-		</div>
-
 		</article>
-		<article class="art">
-			<figure class="imagen-art"> 
-				<img src="img/destiny_mid_img4.jpg" />
-				<h2 class="cinta-art"><p>EXCLUSIVA</p></h2>
-			</figure>
-
-			
-
-		<div>
-			<h2 class="titulo-art">DESTINY</h2>
-			<h2 class="titulo2-art">DESTINY LO NUEVO PARA PS4 Y XBOX ONE</h2>
-		</div>
-		<div class="texto">
-			<p>Destiny is an action game from the creators of Halo, set in a mysterious future. Create a unique and powerful character, customize the way you look and fight, and explore what remains of our solar system.  
-
-
-				por:<a href="#">Rogerio</a>
-
-			</p>
-		</div>
-
-		</article>
-
-
 	</section>
-
+	
+	
+		
+	
 
 	<footer>
 		<p>
@@ -191,11 +141,8 @@
 		</p>
 	</footer>
 
-
-	
-
-
-
-
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/formulario.js"></script>
+	<script src="js/geo.js"></script>
 </body>
 </html>
